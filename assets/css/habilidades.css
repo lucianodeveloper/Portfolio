@@ -1,5 +1,5 @@
 #habilidades {
-    background-color: #493737;
+    background-color: #4b449c;
 }
 
 .habilidades-pd {
@@ -126,34 +126,34 @@
     background-image: url(../img/java2.svg);
 }
 
-.skill7 {
+<--.skill7 {
     background-image: url(../img/react2.svg);
-}
+}-->
 
-.skill8 {
+<--.skill8 {
     background-image: url(../img/styled\ 2.svg);
-}
+}-->
 
-.skill9 {
+<--.skill9 {
     background-image: url(../img/git2.svg);
-}
+}-->
 
 
-.skill10 {
+<--.skill10 {
     background-image: url(../img/github2.svg);
-}
+}-->
 
-.skill11 {
+<--.skill11 {
     background-image: url(../img/bootstrap2.svg);
-}
+}-->
 
-.skill12 {
+<--.skill12 {
     background-image: url(../img/typescript2.svg);
-}
+}-->
 
-.skill13 {
+<--.skill13 {
     background-image: url(../img/sass2.svg);
-}
+}-->
 
 #fundo {
     fill: red;
