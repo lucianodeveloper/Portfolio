@@ -57,7 +57,8 @@ img {
 
 /* criando início */
 #inicio {
-    background: linear-gradient(63.13deg, #352728 51.04%, #8E5D52 51.05%);
+    background-color:#121126; /* Para navegadores que não suportam gradientes */
+    background: linear-gradient(100.13deg, #4b449c 0%, #121126 65%);
     height: 100vh;
     display: flex;
     align-items: center;
