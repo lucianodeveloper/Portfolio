@@ -27,7 +27,8 @@ skills.forEach(  (elemento, index) => {
         if (tempoDeExperiencia > 1) tempo = 'meses'
         descricao.innerHTML = `<p>${sobreSkill[index1]} </p>` ;
     } )
-    
+    elemento.addEventListener('mouseout', (evento, elemento,) => {
+        descricao.innerHTML = '';
     } )
 } );
 
