@@ -3,7 +3,7 @@ const descricao = document.querySelector('.texto-descricao');
 const sobreSkill = [
                     '<p>HTML</p> <br> <p>É uma linguagem de marcação utilizada na construção de páginas na Web.</p> <br>',
                     '<p>CSS</p> <br> <p>É um mecanismo para adicionar estilo a um documento web.</p> <br>',
-                    '<p>JavaScript</p> <br> <p>É uma linguagem de programação. Juntamente com HTML e CSS, é uma das três principais tecnologias da web.</p> <br>',
+                    '<p>JavaScript</p> <br> <p>Juntamente com HTML e CSS, é uma das três principais tecnologias da web.</p> <br>',
                     
 ]
 const dataInicio = [
