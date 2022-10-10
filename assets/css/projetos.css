@@ -1,136 +1,113 @@
 #projetos {
-  padding: 0 5rem;
-  padding-top: 6.875rem;
-  padding-bottom: 6.875rem !important;
-  background-color: var(--bg);
-}
-#projetos h1 {
-  text-align: center;
-  color: lightgrey;
-}
-#projetos .cards {
-  display: flex;
-  margin-top: 1.5rem;
-  gap: 1.5rem;
-}
-#projetos .cards .card {
-  background-color: var(--dark-bg);
-  width: 26.25rem;
-  height: 26.25rem;
-  padding: 0.75rem;
-  border: 1px solid transparent;
-  border-radius: 0.5rem;
-  text-align: center;
-  transition: 0.9s;
-  /* Estilos na imagem para deixar ela adaptável */
-}
-#projetos .cards .card:hover {
-  background-color: var(--bg);
-  box-shadow: 0 0.625rem 1.5625rem rgba(0, 0, 0, 0.8);
-}
-#projetos .cards .card h2 {
-  margin-top: 1rem;
-}
-#projetos .cards .card p {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  text-align: justify;
-  filter: brightness(0.7);
-}
-#projetos .cards .card a {
-  text-decoration: none;
-  color: var(--normal-blue);
-  transition: filter 0.6s;
-}
-#projetos .cards .card a:hover {
-  filter: brightness(0.8);
-  text-decoration: underline;
-}
-#projetos .cards .card img {
-  max-width: 100%;
-  height: auto;
-  border-bottom: 1px solid gray;
-  padding-bottom: 0.75rem;
-}
-#projetos .cards .card-5 img {
-  width: 24.625rem;
-  height: 11.875rem !important;
-}
-#projetos .cards .card-6 img {
-  width: 24.625rem;
-  height: 11.875rem !important;
-}
-#projetos .more-projects {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 4rem;
-  text-align: center;
-}
-#projetos .more-projects a {
-  padding: 0.5rem 2rem;
-  border-radius: 2rem;
-  border: 1px solid var(--bg);
-  text-decoration: none;
-  background: var(--dark-bg);
-  color: var(--normal-blue);
-  transition: 0.8s;
-}
-#projetos .more-projects a:hover {
-  background: var(--bg);
-  border: 1px solid var(--dark-bg);
+    background-color: #121126;
 }
 
-/* Formation section */
-#formacao {
-  padding: 0 5rem;
-  padding-top: 6.875rem;
-  padding-bottom: 6.875rem;
-  background-color: var(--dark-bg);
+.projetos {
+    padding-top: 93px;
 }
-#formacao div h1 {
-  text-align: center;
+
+.projetos h2, .projetos a {
+    text-align: center;
 }
-#formacao .first-row {
-  margin-top: 12.5%;
-  display: flex;
-  justify-content: space-between;
+
+.projetos h2 {
+    padding-bottom: 70px;
 }
-#formacao .first-row div i {
-  color: whitesmoke;
-  font-size: 5rem;
-  margin-left: 1.5rem;
+
+button {
+    padding: 10px 100px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+    background-color: #493737;
+    border: none;
+    transition: ease-in-out 0.3s;
 }
-#formacao .first-row h2 {
-  border-bottom: 1px solid var(--line);
-  padding-bottom: 0.2rem;
+
+button:hover {
+    background-color: #a16c60;
 }
-#formacao .first-row h3, #formacao .first-row h4 {
-  font-weight: 500;
-  color: grey;
-  padding-top: 0.3rem;
+
+.github-link {
+    margin: 0 auto;
+    padding-top: 35px;
+    padding-bottom: 93px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
 }
-#formacao .second-row {
-  margin-top: 12.5%;
-  display: flex;
-  justify-content: space-between;
+
+.projetos a {
+    display: inline;
 }
-#formacao .second-row div i {
-  color: whitesmoke;
-  font-size: 5rem;
-  margin-right: 1.5rem;
+
+.pro {
+    background-color: #C4C4C4;
+    height: 195px;
+    width: 310px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: ease-in-out 0.3s;
 }
-#formacao .second-row .second-row-school {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+
+.pro div p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    color: #C4C4C4;
 }
-#formacao .second-row h2 {
-  border-bottom: 1px solid var(--line);
-  padding-bottom: 0.2rem;
+
+.pro:hover {
+    letter-spacing: 5px;
 }
-#formacao .second-row h3, #formacao .second-row h4 {
-  font-weight: 500;
-  color: grey;
-  padding-top: 0.3rem;
+
+.pro div {
+    background-color: #4b449c;
+    width: 1000px;
+    text-align: center;
+    padding: 5% 0;
+    transform: rotate(-50deg);
+}
+
+.escondido {
+    opacity: 0;
+    display: none;
+    transition: 1000ms;
+}
+
+.projetos-itens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29.5px;
+    width: 100%;
+    justify-content: center;
+}
+
+@media (max-width:1200px) {
+  .projetos{
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+  }
+
+  #projetos {
+      display: flex;
+      justify-content: center;
+  }
+
+  .projetos-itens {
+      flex-direction: column;
+  }
+
+}
+@media (max-width:950px) {
+    .pro {
+        max-width: 300px;
+    }
+
 }
