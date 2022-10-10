@@ -28,7 +28,7 @@ skills.forEach(  (elemento, index) => {
         descricao.innerHTML = `<p>${sobreSkill[index1]} </p>` ;
     } )
     elemento.addEventListener('mouseout', (evento, elemento,) => {
-        descricao.innerHTML = '\* Veja algumas habilidades. */';
+        descricao.innerHTML = '* Veja algumas habilidades: *';
     } )
 } );
 
