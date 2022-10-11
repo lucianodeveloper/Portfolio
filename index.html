@@ -21,6 +21,9 @@
     <link rel="stylesheet" href="/assets/css/habilidades.css" />
     <!-- footer -->
     <link rel="stylesheet" href="/assets/css/footer.css" />
+    <!-- novo estilo projetos -->
+    <link rel="styleheet" href="/assets/css/style.css">
+    <!-- novo estilo projetos -->
   </head>
   <body onload="typeWriter(fName);">
     <div>
@@ -140,7 +143,35 @@
         </div>
       </section>
       <!-- sobre mim -->
-
+      <!-- Projetos novo -->
+      <section id="projetos"> <!-- Section projetos - 263 caracteres por projeto no máximo -->
+	      <div class="container">
+        <div class="card">
+            <div class="content">
+                <h2>01</h2>
+                <h3>Card um</h3>
+                <p>seu texto aqui</p>
+                <a href="#">mais informações</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2>02</h2>
+                <h3>Card dois</h3>
+                <p>seu texto aqui</p>
+                <a href="#">mais informações</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2>03</h2>
+                <h3>Card três</h3>
+                <p>seu texto aqui</p>
+                <a href="#">mais informações</a>
+            </div>
+        </div>
+    </div>
+      <!-- Projetos novo -->
       <!-- Projetos -->
       <section id="projetos"> <!-- Section projetos - 263 caracteres por projeto no máximo -->
 				<div>
@@ -300,5 +331,17 @@
     <script src="./assets/js/scroll.js"></script>
     <script src="./assets/js/maquina_escrever.js"></script>
     <script src="./assets/js/habilidades.js"></script>
+    
+    <!-- teste -->
+    <script type="text/javascript" src="./assets/js/vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 1,
+        });
+    </script>
+    <!-- teste -->
   </body>
 </html>
